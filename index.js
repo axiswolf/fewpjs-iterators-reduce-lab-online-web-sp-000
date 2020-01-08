@@ -5,7 +5,7 @@ function reducer(batteryBatches) {
   let totalBatteries = 0;
 
   batteryBatches.forEach(battery => {
-    totalBatteries += battery
+    totalBatteries += battery;
   });
   return totalBatteries;
 }
