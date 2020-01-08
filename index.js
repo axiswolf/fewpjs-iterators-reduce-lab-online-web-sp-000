@@ -13,3 +13,4 @@ const reducer = (accumulator, currentValue) => accumulator + currentValue;
 function batteries(batteryBatches) {
   return batteryBatches.reduce(reducer);
 }
+const totalBatteries = batteries(batteryBatches)
